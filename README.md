@@ -21,32 +21,29 @@
 
 #### Complains
 
-* **/complain_api/complain/** (Вывод всех продуктов, 'GET')
-* **/magazine_api/product/** (Добавление продукта, 'POST')
-* **/magazine_api/product/pk/** (Чтение продукта, 'GET')
-* **/magazine_api/product/pk/** (Редактирование продукта, 'PUT')
-* **/magazine_api/product/pk/** (Удаление продукта, 'DELETE')
-* **/magazine_api/product/products_search/?q** (Поиск продукта, 'GET')
-* **/magazine_api/product/search_by_category/?category** (Фильтрация продуктов по категории, 'GET')
-* **/magazine_api/product/get_all_reviews/?id** (Получение всех отзывов, 'GET')
+* **/complain_api/complain/** (Вывод всех жалоб, 'GET')
+* **/complain_api/complain/** (Добавление жалобы, 'POST')
+* **/complain_api/complain/pk/** (Чтение жалобы, 'GET')
+* **/complain_api/complain/pk/** (Редактирование жалобы, 'PUT')
+* **/complain_api/complain/pk/** (Удаление жалобы, 'DELETE')
 
 
 #### Category
 
-* **/magazine_api/category/** (Вывод всех категорий товаров, 'GET')
-* **/magazine_api/category/** (Добавление категории, 'POST')
-* **/magazine_api/category/pk/** (Чтение категории, 'GET')
-* **/magazine_api/category/pk/** (Редактирование категории, 'PUT')
-* **/magazine_api/category/pk/** (Удаление категории, 'DELETE')
+* **/complain_api/category/** (Вывод всех категорий жалоб, 'GET')
+* **/complain_api/category/** (Добавление категории, 'POST')
+* **/complain_api/category/pk/** (Чтение категории, 'GET')
+* **/complain_api/category/pk/** (Редактирование категории, 'PUT')
+* **/complain_api/category/pk/** (Удаление категории, 'DELETE')
 
 
-#### Order
+#### Answer
 
-* **/magazine_api/order/** (Вывод всех заказов, 'GET')
-* **/magazine_api/order/** (Добавление заказа, 'POST')
-* **/magazine_api/order/pk/** (Чтение заказа, 'GET')
-* **/magazine_api/order/pk/** (Редактирование заказа, 'PUT')
-* **/magazine_api/order/pk/** (Удаление заказа, 'DELETE')
+* **/complain_api/answer/** (Вывод всех ответов, 'GET')
+* **/complain_api/answer/** (Добавление ответа, 'POST')
+* **/complain_api/answer/pk/** (Чтение ответа, 'GET')
+* **/complain_api/answer/pk/** (Редактирование заказа, 'PUT')
+* **/complain_api/answer/pk/** (Удаление заказа, 'DELETE')
 
 
 #### Review
