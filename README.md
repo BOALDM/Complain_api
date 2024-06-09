@@ -46,14 +46,6 @@
 * **/complain_api/answer/pk/** (Удаление заказа, 'DELETE')
 
 
-#### Review
-
-* **/magazine_api/review/** (Вывод всех категорий отзывов, 'GET')
-* **/magazine_api/review/** (Добавление отзыва, 'POST')
-* **/magazine_api/review/pk/** (Чтение отзыва, 'GET')
-* **/magazine_api/review/pk/** (Редактирование отзыва, 'PUT')
-* **/magazine_api/review/pk/** (Удаление отзыва, 'DELETE')
-
 ### Install 
 
     pip install -r req.txt
